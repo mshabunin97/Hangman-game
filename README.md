@@ -2,31 +2,31 @@
 
 ![Hangman](public/images/hangman.png)
 
-Это простая реализация классической игры "Виселица", где ваша задача - угадать скрытое слово, предлагая буквы. Каждая правильно угаданная буква показывается на своем месте в слове, а каждое неправильное предположение добавляет часть к изображению повешенного человека. Игра продолжается до тех пор, пока слово не будет угадано правильно или пока повешенный человек не будет полностью нарисован.
+This is a simple implementation of the classic Hangman game, where your task is to guess the hidden word by suggesting letters. Each correctly guessed letter will be revealed in its corresponding position in the word, while each incorrect guess will add a part to the hangman drawing. The game continues until the word is guessed correctly or the hangman drawing is completed.
 
-## Особенности
+## Features
 
-* Случайным образом выбирается слово из заранее заданного списка.
-* Отслеживает количество оставшихся попыток и отображает его игроку.
-* Показывает заполнители для букв в угадываемом слове.
-* Позволяет игроку вводить буквы, щелкая на кнопки виртуальной клавиатуры на экране.
-* Обновляет изображение повешенного человека и уменьшает количество попыток для неправильных предположений.
-* Уведомляет игрока о победе или поражении по окончании игры.
-* Предоставляет возможность сыграть снова и начать новую игру.
+* Randomly selects a word from a predefined list.
+* Tracks the number of remaining attempts and displays it to the player.
+* Shows placeholders for letters in the guessed word.
+* Allows the player to input letters by clicking on the buttons of the virtual on-screen keyboard.
+* Updates the hangman drawing and reduces the number of attempts for incorrect guesses.
+* Notifies the player of victory or defeat at the end of the game.
+* Provides the option to play again and start a new game.
 
-## Как играть
+## How to Play
 
-1. Запустите игру.
-2. Вам будет представлен набор нижних подчеркиваний, представляющих буквы скрытого слова.
-3. Щелкните на кнопки виртуальной клавиатуры, чтобы предположить буквы.
-4. Если угаданная буква правильна, она будет показана в слове. В противном случае изображение повешенного человека обновится, а количество попыток уменьшится.
-5. Продолжайте угадывать буквы, пока вы либо угадаете слово и победите, либо исчерпаете все попытки и проиграете.
-6. По окончании игры вы можете выбрать сыграть снова и начать новую игру.
+1. Start the game.
+2. You will be presented with a set of underscores representing the letters of the hidden word.
+3. Click on the buttons of the virtual on-screen keyboard to guess the letters.
+4. If the guessed letter is correct, it will be revealed in the word. Otherwise, the hangman drawing will be updated, and the number of attempts will decrease.
+5. Continue guessing letters until you either guess the word and win or exhaust all attempts and lose.
+6. At the end of the game, you can choose to play again and start a new game.
 
-## Установка
-1. Клонируйте репозиторий на свой компьютер.
-2. Откройте директорию проекта в выбранном вами редакторе кода.
-3. Откройте файл index.html в веб-браузере.
-4. Или же просто перейдите по ссылке кливнув на Hangman Game.
+## Installation
+1. Clone the repository to your computer.
+2. Open the project directory in your preferred code editor.
+3. Open the index.html file in a web browser.
+4. Alternatively, simply click on the provided link to play Hangman Game.
 
-    Вот и все! Теперь выможете играть в игру "Виселица" в своем веб-браузере.
+    That's it! Now you can play the Hangman game in your web browser.
